@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 09</title>
+	<style>
+		.div1{
+			
+			float: left;
+			height: 300px;
+			width: 50%;
+			background-color: green;
+			margin-top: 20px;
+		}
+		
+		.div2{
+			height: 50px;
+			width: 50px;
+			background-color: brown;
+			border-radius: 100%;
+			animation: ball 5s infinite;
+		}
+		.d1{
+			border-radius: 0 80% 0 0;
+		}
+
+		.d2{
+			border-radius: 80% 0 0 0;
+		}
+
+		@keyframes ball{
+			0% { transform: translate(0px,0px);}
+			10% { transform: translate(440px,10px);}
+			15% { transform: translate(460px,50px);}
+			20% { transform: translate(500px,100px);}
+			25% { transform: translate(550px,100px);}
+			30% { transform: translate(600px,115px);}
+			35% { transform: translate(700px,50px);}
+			40% { transform: translate(800px,20px);}
+			50% { transform: translate(1000px,10px);}
+			55% { transform: translate(800px,20px);}
+			60% { transform: translate(700px,50px);}
+			65% { transform: translate(600px,,115px);}
+			70% { transform: translate(550px,100px);}
+			75% { transform: translate(500px,100px);}
+			80% { transform: translate(460px,50px);}
+			90% { transform: translate(440px,20px);}
+			100% { transform: translate(0px,1px);}
+		}
+
+		.main{
+			height: 400px;
+			width: 80%;
+			margin:200px auto;
+			background-color: lightblue;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="main">
+<div class="div2"></div>
+<div class="div1 d1"></div>
+<div class="div1 d2"></div>
+</div>
+</body>
+</html>
