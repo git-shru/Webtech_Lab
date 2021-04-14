@@ -1,0 +1,44 @@
+body{
+	background-color: lightgrey;
+}
+
+.form{
+	width: 40%;
+	background-color: pink;
+	height: 500px;
+	margin: 0px auto;
+	text-align: center;
+	border-radius: 20px;
+}
+
+div{
+	margin: 30px;
+}
+
+.attendance{
+	padding-top: 20px;
+	font-size: 25px;
+
+}
+
+@media screen and(max-width: 1500px){
+	.form{
+		width: 30%;
+	}
+}
+
+@media screen and(max-width: 750px){
+	.form{
+		width: 60%;
+	}
+}
+
+@media screen and(max-width: 375px){
+	.form{
+		width: 90%;
+	}
+}
+
+textarea{
+	height: 50px;
+}
