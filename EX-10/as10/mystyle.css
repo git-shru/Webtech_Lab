@@ -1,0 +1,123 @@
+#container {
+	width: 70%;
+	margin: 0px auto;
+	height: 600px;
+	display: flex;
+	position: relative;
+}
+#container::before{
+	content: "";
+	background-image: url("C:/Users/shruti/Desktop/webtechlab/EX-10/as10/image/Goa Beach.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top:0px;
+	z-index: -1;
+	opacity: 0.3;
+}
+	
+
+
+
+#gulogo{
+	margin: 0px 400px;
+}
+
+#guname{
+	margin: 0px 385px;
+	text-shadow: 130px 24px grey;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: blue;
+	opacity: 0.7;
+}
+
+#guinfo{
+	
+	width: 80%;
+	margin: 20px auto; 
+}
+
+#header{
+	background-color: #00FFFF;
+	height: 100px;
+}
+
+#list1{
+	float: left;
+	clear: left;
+}
+
+#list2{
+	float: left;
+	
+}
+
+#leftbar{
+	background-color: #FFA500	;
+
+	height: 180px;
+	width: 30%;
+	float: left;
+}
+
+#leftbar img{
+	height: 1px;
+	width: 0px;
+}
+
+#rightbar{
+	float: left;
+	width: 70%;
+	height: 180px;
+font-size: 10px;
+}
+
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #ffff00;
+	float: left;
+}
+
+#footer input{
+	background-color: #ff0000;
+}
+
+#footer table{
+	margin: 0px auto;
+}
+
+.blk{
+	border:1px solid #ff0000;
+	height: 50px;
+	width: 80px;
+	float: left;
+	padding-top:30px 
+
+}
+
+.slk{
+	float: left;
+	margin-top: 60px;
+
+
+
+}
+
+#rightbar img{
+	
+	height: 150px;
+}
+
+#copyright{
+	float:both;
+	clear: left;
+	margin-top: 30px;
+	text-align: center;
+}
